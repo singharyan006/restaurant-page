@@ -2,7 +2,7 @@ export default function loadHome() {
   const content = document.getElementById('content');
 
   const headline = document.createElement('h1');
-  headline.textContent = "Welcome to CodeChef's Kitchen 🍽️";
+  headline.textContent = "Welcome to CodeChef's Kitchen..";
 
   const paragraph = document.createElement('p');
   paragraph.textContent =

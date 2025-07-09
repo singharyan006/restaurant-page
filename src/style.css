@@ -2,31 +2,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lavishly Yours", cursive ;
 }
 
-body {
+main {
   font-family: 'Segoe UI', sans-serif;
   background: url('./assets/background.jpg') no-repeat center center fixed;
   background-size: cover;
   color: white;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.7);
   padding: 1rem;
   text-align: center;
+  justify-items: end;
 }
 
 nav button {
-  margin: 0 10px;
   padding: 10px 20px;
-  font-size: 1rem;
-  border: none;
-  border-radius: 5px;
-  background-color: #ffffff22;
+  font-size: 2rem;
+  border: 0.5px solid white;
+  background-color: transparent;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -37,24 +34,35 @@ nav button:hover {
 }
 
 #content {
+  margin-top: 15rem;
   flex: 1;
   padding: 2rem;
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(3px);
+  background-color: transparent;
+  transition: ease-in-out 1s;
 }
 
 h1 {
-  font-size: 3rem;
+  color: bisque;
+  font-size: 5rem;
   margin-bottom: 1rem;
 }
 
+h2 {
+  color: azure;
+  font-size: 3.5rem;
+}
+
 p {
-  font-size: 1.25rem;
-  max-width: 600px;
+  color: beige;
+  font-size: 3rem;
+  margin: 1rem;
 }
 
 .menu-item {
+  display: flex;
+  gap: 1rem;
   margin-bottom: 2rem;
+  height: 5rem;
 }
 
 .contact-info {
