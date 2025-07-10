@@ -62,7 +62,7 @@ restaurant-page/
 ### Clone the repository:
 
 ```
-git clone https://github.com/your-username/restaurant-page.git
+git clone https://github.com/singharyan006/restaurant-page.git
 cd restaurant-page
 ```
 
