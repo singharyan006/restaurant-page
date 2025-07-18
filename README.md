@@ -61,8 +61,8 @@ restaurant-page/
 
 ### Clone the repository:
 
-```
-git clone https://github.com/your-username/restaurant-page.git
+```bash
+git clone https://github.com/singharyan006/restaurant-page.git
 cd restaurant-page
 ```
 
@@ -70,7 +70,7 @@ cd restaurant-page
 
 ## Install dependencies:
 
-```
+```bash
 npm install 
 ```
 
@@ -78,7 +78,7 @@ npm install
 
 ## Run in development:
 
-```
+```bash
 npm start
 ```
 
@@ -86,7 +86,7 @@ npm start
 
 ## Build for production:
 
-```
+```bash
 npm run build
 ```
 
@@ -105,5 +105,5 @@ npm run build
 
 ---
 
-## 🧠 Author
-📎 [Aryan Singh](https://github.com/singharyan006)
+## LICENSE
+📎 [LICENSE](LICENSE)
